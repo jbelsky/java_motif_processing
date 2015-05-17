@@ -1,4 +1,4 @@
-package Motifs;
+package motif_processing;
 
 import java.io.IOException;
 import java.util.Arrays;

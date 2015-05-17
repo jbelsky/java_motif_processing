@@ -5,4 +5,4 @@
  * @author Jason
  *
  */
-package Motifs;
+package motif_processing;

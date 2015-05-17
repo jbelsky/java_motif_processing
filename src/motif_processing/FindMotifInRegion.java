@@ -1,4 +1,4 @@
-package Motifs;
+package motif_processing;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
