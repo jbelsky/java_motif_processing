@@ -24,9 +24,12 @@ public class CMDLineMain {
 		}else if(java_executable_program.equals("FindMotifInRegion")){
 			System.out.println("Executing FindMotifInRegion!");
 			FindMotifInRegion.main(cmd_line_args);
+		}else if(java_executable_program.equals("FeatureMotifScore")){
+			System.out.println("Executing FeatureMotifScore!");
+			FeatureMotifScore.main(cmd_line_args);
 		}else{
-			System.out.println("Did not specify either 'FindHighScoringRegionMotifs' or " +
-							   "'FindMotifInRegion' as first argument!");
+			System.out.println("Did not specify 'FindHighScoringRegionMotifs', 'FindMotifInRegion', or " +
+							   "'FeatureMotifScore' as first argument!");
 		}
 
 	}
