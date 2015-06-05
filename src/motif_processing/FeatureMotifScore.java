@@ -28,7 +28,7 @@ public class FeatureMotifScore {
 		String bg_model_file_name = args[3];
 				
 		// Set the genome fasta header
-		String genome_fasta_header = args[5];
+		String genome_fasta_header = args[4];
 		
 		////////////////////////////////////////////////////////////////////////////////////////////////
 				
@@ -90,7 +90,7 @@ public class FeatureMotifScore {
 			// Write the output
 			output.write(line + "," + 
 						 df.format(log_diff_score) + "," +
-						 PWMFunctions.get_seq_to_evaluate(chr_seq, left_coord, right_coord, str) + "\n"
+						 PWMFunctions.get_seq_to_evaluate(chr_seq, motif_pos, right_coord - left_coord + 1, str) + "\n"
 						);
 				
 								
